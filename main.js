@@ -1,5 +1,4 @@
-const game = new game();
-
+const game = new Game();
 // Load game assets
 function preload() {
   game.preload();
@@ -9,8 +8,8 @@ function preload() {
 
 function setup() {
   createCanvas(1000, 1000);
+  canvas.parent("canvas");
 }
-
 //Draw the game
 function draw() {
   game.draw();
