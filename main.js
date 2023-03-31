@@ -3,9 +3,7 @@ const game = new Game();
 function preload() {
   game.preload();
 }
-
 // Set up Game
-
 function setup() {
   createCanvas(1000, 1000);
   canvas.parent("canvas");
