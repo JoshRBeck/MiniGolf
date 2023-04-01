@@ -28,3 +28,6 @@
   justify-content: center;
   flex-direction: column;
 }
+#canvas {
+  display: flex;
+}

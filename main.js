@@ -5,11 +5,10 @@ function preload() {
 }
 // Set up Game
 function setup() {
-  createCanvas(1000, 1000);
-  canvas.parent("canvas");
+  createCanvas(920, 460);
 }
 //Draw the game
 function draw() {
-  game.draw();
+  // game.draw();
   game.drawLevel();
 }

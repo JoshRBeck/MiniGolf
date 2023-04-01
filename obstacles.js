@@ -1,5 +1,5 @@
-class obstacles {
-    constructor() {
-    this.obstacles = [];
-    }
-}
+// class obstacles {
+//     constructor() {
+//     this.obstacles = [];
+//     }
+// }

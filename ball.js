@@ -1,5 +1,5 @@
-class ball {
-    constructor() {
-    this.ball = [];
-    }
-}
+// class ball {
+//     constructor() {
+//     this.ball = [];
+//     }
+// }

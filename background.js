@@ -1,5 +1,5 @@
-class background {
-    constructor() {
-    this.background = [];
-    }
-}
+// class background {
+//     constructor() {
+//     this.background = [];
+//     }
+// }
