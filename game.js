@@ -1,13 +1,15 @@
 class Game {
   constructor() {
-    // this.player = new player();
-    // this.obstacles = [];
+    this.ballImage;
+    this.newball = new Ball();
   }
-  preload() {}
-  // draw() {
-  //   this.background.draw();
-  //   this.player.new();
-  // }
+  preload() {
+    this.newball.preload();
+  }
+  draw() {
+    this.newball.draw();
+  
+  }
   drawLevel() {
     clear();
     background(0, 102, 0);
@@ -20,18 +22,12 @@ class Game {
     line(10, 455, 900, 455);
     line(900, 455, 900, 15);
     line(895, 450, 895, 20);
-    line(800, 150, 800, 230);
+    line(800, 120, 800, 220);
     fill(255, 0, 0);
-    triangle(800, 150, 830, 165, 800, 180);
+    triangle(800, 120, 850, 145, 800, 170);
     fill(194, 194, 163);
     circle(800, 230, 40);
     fill(0, 204, 0);
     rect(15, 20, 200, 430);
   }
 }
-// class player {
-//   constructor() {
-//     this.x = 0;
-//     this.y = 0;
-//   }
-//
