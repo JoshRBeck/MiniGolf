@@ -5,10 +5,13 @@ class Game {
   }
   preload() {
     this.newball.preload();
+    // this.obstacleImages = [
+    //   { src: loadImage("./Assets/Big Rock Obstacle.png") },
+    //   { src: loadImage("./Assets/Rock Obstacle.png") },
+    // ];
   }
   draw() {
     this.newball.draw();
-  
   }
   drawLevel() {
     clear();

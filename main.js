@@ -16,8 +16,8 @@ function draw() {
 // Creating the function to hit the ball
 document.addEventListener("keydown", moveBall);
 function moveBall() {
-  if (keyCode === 32) {
+  if (keyCode === ENTER) {
     game.newball.moveBall();
   }
+  console.log(ENTER);
 }
-console.log(moveBall);
