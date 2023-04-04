@@ -6,6 +6,7 @@ function preload() {
 // Set up Game
 function setup() {
   createCanvas(915, 470);
+  angleMode(DEGREES);
 }
 //Draw the game
 function draw() {
